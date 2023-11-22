@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lesson_10/home_page.dart';
+import 'package:lesson_10/login_page.dart';
+import 'package:lesson_10/second_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:HomePage()
+      home:LoginPage()
     );
   }
 }
